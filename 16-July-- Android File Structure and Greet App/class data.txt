@@ -1,0 +1,59 @@
+app--> all app level required files 
+
+--> manifests
+	--> imp of every android project.
+	--> total no of activites
+		5 activities--> first activity to appear
+	--> app_name, app icon, app theme, app styles, 				etc
+
+--> java--> activity code--> java class or activities
+
+--> res--> images, .mp3, .mp4, animations, colors, etc 
+	--> drawable--> images
+	--> layout--> front-end code
+	--> mipmap--> app icon
+	--> values--> colors, strings, styles
+
+
+Gradle--> Build tool-->
+
+distributed files data extract integrate into single apk
+
+1 single file--> .apk file
+
+first time for apk building-->
+
+graph maintain
+
+
+gradle--> python, ruby, 
+
+Layout.xml-->
+
+parent--> layout(Relative layout, constraint layout)
+child--> widgets--> textview, buttons, radio button, etc
+
+Mandatory attributes in parent and child:
+
+layout_width="match_parent/wrap_content/hardcoded_value"
+
+
+match_parent=to cover full width or height acc. to parent
+
+
+wrap_content= cover the width or height acc. to the textsize and text data
+
+hardcoded_value= we have to specify this in either dp or sp--> better way is dp(density pixels)
+
+sp--> scalable pixels--> text
+
+25sp--> 
+
+image--> 50dp
+
+layout_height=""
+
+TextView--> Heading or message 
+
+EditText--> user interation
+ 
