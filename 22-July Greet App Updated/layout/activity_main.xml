@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.greetapp.MainActivity"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
+
+    <!--android:text="ram"-->
+    <EditText
+        android:id="@+id/nameEditText"
+        android:textSize="22sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignBaseline="@+id/nameTextView"
+        android:layout_toEndOf="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/nameTextView"
+        android:id="@+id/passwordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_below="@+id/nameEditText"
+        android:textSize="22sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignBaseline="@+id/passwordTextView"
+        android:layout_toEndOf="@+id/passwordTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:inputType="textPassword"/>
+
+
+    <Button
+        android:layout_marginLeft="80dp"
+        android:id="@+id/submitButton"
+        android:layout_marginTop="50dp"
+        android:text="Submit"
+        android:layout_below="@id/passwordEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/passwordEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_toEndOf="@+id/submitButton"
+        android:id="@+id/cancelButton"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/resultTextView"
+        android:fontFamily="cursive"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
