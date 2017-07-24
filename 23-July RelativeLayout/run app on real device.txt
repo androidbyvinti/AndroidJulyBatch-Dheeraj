@@ -1,0 +1,3 @@
+Run App on Real Device:
+
+https://developer.android.com/studio/run/oem-usb.html

@@ -1,0 +1,16 @@
+ViewGroup class--> Layout inherit--> work with more than one element at a time--> Container inherit the ViewGroup
+
+--> more than one widget and more than one ViewGroup(Layout)
+
+View class--> Widgets inherit--> work with one single element or widget at a time
+
+
+
+RelativeLayout--> relative positions of parent and other child widgets
+
+adv: drag n drop, wide collection of attribute to position widgets
+
+avoid nested layouts
+
+dis: dependency
+
