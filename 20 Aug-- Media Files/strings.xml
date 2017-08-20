@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Media files</string>
+    <string-array name="month">
+        <item>data1</item>
+        <item>data2</item>
+        <item>data3</item>
+        <item>data4</item>
+        <item>data5</item>
+        <item>data6</item>
+        <item>data7</item>
+    </string-array>
+</resources>

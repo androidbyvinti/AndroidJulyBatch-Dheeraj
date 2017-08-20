@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.mediafiles.MainActivity"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_media_play"
+        android:background="@color/colorAccent"
+        android:padding="8dp"
+        android:id="@+id/playButton"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_media_pause"
+        android:background="@color/colorAccent"
+        android:padding="8dp"
+        android:id="@+id/pauseButton"
+        android:layout_marginLeft="2dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/star_big_off"
+        android:background="@color/colorAccent"
+        android:padding="8dp"
+        android:id="@+id/stopButton"
+        android:layout_marginLeft="2dp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/listView"
+        android:divider="@color/colorAccent"
+        android:dividerHeight="2dp"
+        android:entries="@array/month">
+
+
+    </ListView>
+
+</LinearLayout>
