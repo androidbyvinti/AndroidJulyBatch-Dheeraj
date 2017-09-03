@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="java">Java</string>
+    <string name="c">C</string>
+    <string name="cPlusPlus">\C++</string>
+    <string name="android">Android</string>
+</resources>
