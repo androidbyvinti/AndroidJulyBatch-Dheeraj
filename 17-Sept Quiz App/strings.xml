@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="java">Java</string>
+    <string name="c">C</string>
+    <string name="cPlusPlus">\C++</string>
+    <string name="android">Android</string>
+
+    <string-array name="cquestions">
+        <item>"Who developed C language?"</item>
+        <item>"What is increment operator?"</item>
+        <item>"Which is not a type of loop?"</item>
+    </string-array>
+
+    <string-array name="cplusquestions">
+        <item>"Who developed C++ language?"</item>
+        <item>"What are pointers?"</item>
+        <item>"Which is not a type of loop?"</item>
+    </string-array>
+
+    <string-array name="coptions">
+        <item>Option 1A</item>
+        <item>Option 1B</item>
+        <item>Option 1C</item>
+        <item>Option 1D</item>
+        <item>Option 2A</item>
+        <item>Option 2B</item>
+        <item>Option 2C</item>
+        <item>Option 2D</item>
+        <item>Option 3A</item>
+        <item>Option 3B</item>
+        <item>Option 3C</item>
+        <item>Option 3D</item>
+    </string-array>
+
+
+    <string-array name="CQues">
+        <item>Who is father of C Language?</item>
+        <item>C Language developed at _________?</item>
+        <item>For 16-bit compiler allowable range for integer constants is ________?</item>
+        <item>C programs are converted into machine language with the help of</item>
+        <item>C was primarily developed as</item>
+    </string-array>
+
+
+    <string-array name="canswer">
+        <item>"Dennis Ritchie"</item>
+        <item>AT &amp; T\'s Bell Laboratories of USA in 1972</item>
+        <item>-32768 to 32767</item>
+        <item>A compiler</item>
+        <item>System programming language</item>
+    </string-array>
+
+    <string-array name="COptions">
+        <item>Bjarne Stroustrup</item>
+        <item>James A. Gosling</item>
+        <item>Dennis Ritchie</item>
+        <item>Dr. E.F. Codd</item>
+        <item>AT &amp; T\'s Bell Laboratories of USA in 1972</item>
+        <item>AT &amp; T\'s Bell Laboratories of USA in 1970</item>
+        <item>Sun Microsystems in 1973</item>
+        <item>Cambridge University in 1972</item>
+        <item>-3.4e38 to 3.4e38</item>
+        <item>-32767 to 32768</item>
+        <item>-32668 to 32667</item>
+        <item>-32768 to 32767</item>
+        <item>An Editor</item>
+        <item>A compiler</item>
+        <item>An operating system</item>
+        <item>None of these.</item>
+        <item>System programming language</item>
+        <item>General purpose language</item>
+        <item>Data processing language</item>
+        <item>None of the above.</item>
+    </string-array>
+    <string-array name="CPPQues">
+        <item>Which of the following type of class allows only one object of it to be created?</item>
+        <item>Which of the following is not a type of constructor?</item>
+        <item>Which of the following statements is correct?</item>
+        <item>Which of the following is not the member of class?</item>
+        <item>Which of the following concepts means determining at runtime what method to invoke?</item>
+    </string-array>
+    <string-array name="CPPOptions">
+        <item>Virtual class</item>
+        <item>Abstract class</item>
+        <item>Singleton class</item>
+        <item>Friend class</item>
+        <item>Copy constructor</item>
+        <item>Friend constructor</item>
+        <item>Default constructor</item>
+        <item>Parameterized constructor</item>
+        <item>Base class pointer cannot point to derived class.</item>
+        <item>Derived class pointer cannot point to base class.</item>
+        <item>Pointer to derived class cannot be created.</item>
+        <item>Pointer to base class cannot be created.</item>
+        <item>Static function</item>
+        <item>Friend function</item>
+        <item>Const function</item>
+        <item>Virtual function</item>
+        <item>Data hiding</item>
+        <item>Dynamic Typing</item>
+        <item>Dynamic binding</item>
+        <item>Dynamic loading</item>
+    </string-array>
+    <string-array name="JavaQues">
+        <item>In Java arrays are</item>
+        <item>Which one of these lists contains only Java programming language keywords?</item>
+        <item>Which will legally declare, construct, and initialize an array?</item>
+        <item>Which is a reserved word in the Java programming language?</item>
+        <item>Which is a valid keyword in java?</item>
+    </string-array>
+    <string-array name="JavaOptions">
+        <item>objects</item>
+        <item>object references</item>
+        <item>primitive data type</item>
+        <item>None of the above</item>
+        <item>class, if, void, long, Int, continue</item>
+        <item>goto, instanceof, native, finally, default, throws</item>
+        <item>try, virtual, throw, final, volatile, transient</item>
+        <item>strictfp, constant, super, implements, do</item>
+        <item>int [] myList = {"1", "2", "3"};</item>
+        <item>int [] myList = (5, 8, 2);</item>
+        <item>int myList [] [] = {4,9,7,0};</item>
+        <item>int myList [] = {4, 3, 7};</item>
+        <item>method</item>
+        <item>native</item>
+        <item>subclasses</item>
+        <item>reference</item>
+        <item>interface</item>
+        <item>string</item>
+        <item>Float</item>
+        <item>unsigned</item>
+    </string-array>
+    <string-array name="AndroidQues">
+        <item>What is an activity in Android?</item>
+        <item>What is splash screen in android?</item>
+        <item>What are the functionalities in asyncTask in android?</item>
+        <item>What is the life cycle of broadcast receivers in android?</item>
+        <item>How to get current location in android?</item>
+    </string-array>
+    <string-array name="AndroidOptions">
+        <item>Activity performs the actions on the screen</item>
+        <item>Manage the Application content</item>
+        <item>Screen UI</item>
+        <item>None of the above</item>
+        <item>Initial activity of an application</item>
+        <item>Initial service of an application</item>
+        <item>Initial method of an application</item>
+        <item>Initial screen of an application</item>
+        <item>onPreExecution()</item>
+        <item>doInBackground()</item>
+        <item>onProgressUpdate()</item>
+        <item>onPostExecution()</item>
+        <item>send intent()</item>
+        <item>onRecieve()</item>
+        <item>implicitBroadcast()</item>
+        <item>sendBroadcast(), sendOrderBroadcast(), and sendStickyBroadcast().</item>
+        <item>Using with GPRS</item>
+        <item>Using location provider</item>
+        <item>A &amp; B</item>
+        <item>SQlite</item>
+    </string-array>
+
+</resources>
