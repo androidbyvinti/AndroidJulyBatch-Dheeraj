@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.musicfiles_dheeraj.MainActivity"
+    android:padding="16dp">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playButton"
+        android:src="@android:drawable/ic_media_play"
+        android:background="@color/colorAccent"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pauseButton"
+        android:src="@android:drawable/ic_media_pause"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="10dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stopButton"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="10dp" />
+
+</LinearLayout>
